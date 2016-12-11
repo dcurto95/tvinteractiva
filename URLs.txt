@@ -1,0 +1,4 @@
+PAGE URL
+www.tvinteractiva.esy.es/
+BROADCAST URL
+http://esioslive6-i.akamaihd.net/hls/live/202892/AL_P_ESP1_FR_FRA/playlist.m3u8 

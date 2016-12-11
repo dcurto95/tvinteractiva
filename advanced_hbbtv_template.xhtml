@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//HbbTV//1.1.1//EN" "http://www.hbbtv.org/dtd/HbbTV-1.1.1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>HbbTV Application Template </title>
+
+<meta http-equiv="content-type" content="application/vnd.hbbtv.xhtml+xml" charset="UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+
+<script type="text/javascript" src="./js/hbbtvlib.js"></script>
+<script type="text/javascript" src="./js/keycodes.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> 
+</head>
+
+<body>
+
+<!--
+The main page should have application manager, and should call show() at onload();
+-->
+<object id="oipfAppMan" type="application/oipfApplicationManager"></object>
+
+
+<!-- the logical HbbTV Application graphic plane is 1280px horizontally by 720px vertically 
+So the every content should be draw in 1280 * 720 
+<div style="left: 0px; top: 0px; width: 1280px; height: 720px;  position:absolute; background-color: transparent; border:1px solid #c33;  z-index:-1;">
+ Media objects 
+	<object id="broadcast" type="video/broadcast"></object>
+//Media objects 
+</div>
+-->
+
+<!-- Graphic safe area(Recommend), 1024 * 648 -->
+<div id="divGraphic">
+	<img src="./img/red-button.png" id="redButton"/>
+</div>
+
+<div id="sync">
+
+	<div id="show">
+		<h1>Sync number</h1>
+	  	
+	    <p id ="synctext"></p>
+	</div>
+	<div id="ok">
+		<h2>Press Ok to continue</h2>
+	</div>
+
+</div>
+
+<!--<img src="./img/sync.png" id="syncimage"/> -->
+
+<div id="view3">
+
+	<div id="menu">
+		
+	</div>
+	
+    <object id="mybroadcast" type="video/broadcast"></object>
+	<object id="video" type="video/mp4"></object>
+
+	<div id="users">
+		<p>CONNECTED USERS</p>
+
+		<ul id="userPanel">
+		</ul>
+    </div>
+
+    <div id="album">
+		<p>VIDEO DESCRIPTION</p>
+
+		<ul id="albumPanel">
+			<li id ="description"></li>
+			<li id ="counter"></li>
+		</ul>
+    </div>
+
+	<div id="leyendaContainer">
+		<img src="./img/leyenda.png" id="leyendaImg"/>
+	</div>
+</div>
+
+<div id="black">
+</div>
+
+<div id ="view4">
+	<img src="./img/blue-button.png" id="blueButton"/>
+	<object id="videoFullScreen" type="video/mp4"></object>
+</div>
+
+</body>
+
+</html>

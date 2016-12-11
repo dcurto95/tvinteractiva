@@ -1,0 +1,9 @@
+{"videos":[
+    {"artist":"Red Bull Media House","title":"The Fourth Phase", "url":"./videos/video0.mp4", "image":"./img/video0.jpg", "description":"Red Bull Media House presents The Fourth Phase, a snowboarding epic starring iconic athlete Travis Rice.","views":0},
+    {"artist":"Uli Emanuele","title":"Wingsuit Flight",  "url":"./videos/video1.mp4", "image":"./img/video1.jpg", "description":"Uli Emanuele pilots what is possibly the most technical and difficult BASE jump ever.","views":0},
+    {"artist":"Matthias Giraud","title":"Avalanche Cliff Jump",  "url":"./videos/video2.mp4", "image":"./img/video2.jpg", "description":"Skiiers Matthias Giraud and Stefan Laude try to outrun a massive avalanche in the French Alps. The only problem? Their escape route.","views":0},
+    {"artist":"GoPro HERO4","title":"The Adventure of Life in 4K",  "url":"./videos/video3.mp4", "image":"./img/video3.jpg", "description":"All around the world GoPro users are capturing incredible experiences, from the heart-stopping to the heartfelt.","views":0},
+    {"artist":"HERO3® camera","title":"Almost as Epic as the HERO3+",  "url":"./videos/video4.mp4", "image":"./img/video4.jpg", "description":"Capture and share your life's most meaningful experiences with the HERO3+ Black Edition. 20% smaller and lighter than its predecessor","views":0},
+    {"artist":"GoPro HERO5 + Karma","title":"The launch in 4K",  "url":"./videos/video5.mp4", "image":"./img/video5.jpg", "description":"More than a drone: Karma is an aerial, hand-held and mountable stabilization solution. And yes, it includes a drone!","views":0},
+    {"artist":"Jeremy Stowards","title":"Mountain Bike Freeride",  "url":"./videos/video6.mp4", "image":"./img/video6.jpg", "description":"Join Jeremy Stowards as he races down a chute at Williams Lake in British Columbia, Canada.","views":0}
+]}
